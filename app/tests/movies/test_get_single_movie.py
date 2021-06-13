@@ -1,5 +1,7 @@
 import pytest
+
 from movies.models import Movie
+
 
 @pytest.mark.django_db
 def test_get_single_movie(client):
